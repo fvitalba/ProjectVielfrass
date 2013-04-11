@@ -1,0 +1,11 @@
+Projekt Vielfrass entstand eines Nachts im Kopf von Vitalba Fabio. Der Benutzer soll eine Moeglichkeit erhalten, seine Mahlzeiten aufgrund der vorhandenen Ressourcen und der momentanen Geluesten auswaehlen koennen. 
+Dementsprechend soll die Software ein Menue erstellen, das vom Benutzer selbst einfach verfeinert werden kann.
+
+Voraussetzung dafuer ist eine gigantische Datenbank gefuellt mit ausreichend Rezepten, die eine ausgiebige Auswahl an Mahlzeiten zu garantiert. Der Suchalgorithmus findet (basierend auf den Zutaten) eine Auswahl 
+an Rezepten, die er entweder als Liste ausspuckt, oder im Idealfall ein vollstaendiges Menue erstellt.
+
+Die Plattform soll auch ein Diskussionsforum bieten, in der neue Rezepte ausgetauscht, Gourmetmenues verbreitet, und alte Rezepte erneuert werden koennen. Den Benutzern liegt es frei ein Profil zu erstellen, in dem sie 
+selbst das Kuehlschrankinventar mit Verfallsdatum festhalten koennen und aufgrund dieser Daten nicht immer die verschiedenen Zutaten manuell eintippen muessen.
+
+Der Benutzer kann ausserdem auf seiner eigenen Profilseite seine Vorlieben festhalten und spezielle Diaeten festlegen wie z.B. Vegetarismus, welches der Suchalgorithmus dann auch beruecksichtigt. Standartmaessig wird 
+Omnivorismus ausgewaehlt. Auch Allergien koennen hier spezifiziert werden um somit z.B. Laktose-intolerante Benutzer mit, fuer sie gerechte, Menues zu bedienen.
