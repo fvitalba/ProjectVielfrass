@@ -17,63 +17,103 @@ html	{
 /*	HTML TAGS	*/
 body {
 	background: #ddd;
-	border-style: outset;
+	width: 768px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border-style: outset;
 	border-color: #000;
-	border-width: 5px;
+	border-width: 5px;*/
 }
 
 header {
 	background: #f00;
-	border-style: outset;
+	width: 100%;
+	/*border-style: outset;
 	border-color: #000;
-	border-width: 5px;
+	border-width: 5px;*/
 }
 
 nav {
 	background: #ff0;
-	border-style: outset;
+	width: 100%;
+	/*border-style: outset;
 	border-color: #000;
-	border-width: 5px;
-	float: left;
+	border-width: 5px;*/
 }
 
 section {
-	background: #0f0;
-	border-style: outset;
+	background: #ccc;
+	/*border-style: outset;
 	border-color: #000;
-	border-width: 5px;
+	border-width: 5px;*/
+	width: 67%;
 	float: left;
 }
 
 article	{
-	background: #0ff;
-	border-style: outset;
-	border-color: #000;
-	border-width: 5px;
+	background: #eee;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding: 10px;
+	text-align: justify;
+	border-style: solid;
+	border-color: #e68a00;
+	border-width: 2px;
 }
 
 aside {
 	background: #00f;
-	border-style: outset;
+	/*border-style: outset;
 	border-color: #000;
-	border-width: 5px;
+	border-width: 5px;*/
+	width: 33%;
+	float: left;
 }
 
 footer {
 	background: #f0f;
-	border-style: outset;
+	width: 100%;
+	/*border-style: outset;
 	border-color: #000;
-	border-width: 5px;
+	border-width: 5px;*/
 }
 
 h1	{
 	
 }
 
+h2	{
+	position: relative;
+	font-size: 60px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	font-family: 'Myriad-Pro', 'Myriad', helvetica, arial, sans-serif;
+	text-shadow: 2px 3px 3px #aaa;
+	letter-spacing: -2px;
+	-webkit-text-stroke: 1px white;
+	text-decoration: none;  
+	color: #ffffff;
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottombottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+	text-shadow: 0 2px 0 #aaa;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+span	{
+	color: #e68a00;
+}
+
+
 
 /*	CLASSES	*/
 .clear_float	{
-	float: clear;
+	clear: float;
 }
 .article_title	{
 	background-color: black;
@@ -81,24 +121,16 @@ h1	{
 	display: inline-block;
 	position: relative;
 	height: 40px;
-	span {
-		color: orange;
-	}
-	&:after {
-		content: "";
-		position: absolute;
-		border: 20px solid black;
-		border-right-color: transparent;
-		border-bottom-color: transparent;
-	}
+	padding-left: 40px;
+	margin-left: -20px;
 }
 .article_title:after {
-		content: "";
-		position: absolute;
-		border: 20px solid black;
-		border-right-color: transparent;
-		border-bottom-color: transparent;
-	}
+	content: "";
+	position: absolute;
+	border: 20px solid black;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+}
 .article_content	{
 	
 }
