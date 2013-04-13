@@ -3,38 +3,103 @@
 */
 
 
+/*	CUSTOM VARIABLES	*/
+@font-face {
+	font-family: Gisha;
+	src: url('./fonts/gisha.ttf');
+}
+
+/*	GENERALS	*/
+html	{
+	font-family: Gisha;
+}
+
 /*	HTML TAGS	*/
 body {
-	
+	background: #ddd;
+	border-style: outset;
+	border-color: #000;
+	border-width: 5px;
 }
 
 header {
-	
+	background: #f00;
+	border-style: outset;
+	border-color: #000;
+	border-width: 5px;
 }
 
 nav {
-	
+	background: #ff0;
+	border-style: outset;
+	border-color: #000;
+	border-width: 5px;
+	float: left;
 }
 
 section {
-	
+	background: #0f0;
+	border-style: outset;
+	border-color: #000;
+	border-width: 5px;
+	float: left;
 }
 
 article	{
-	
+	background: #0ff;
+	border-style: outset;
+	border-color: #000;
+	border-width: 5px;
 }
 
 aside {
-	
+	background: #00f;
+	border-style: outset;
+	border-color: #000;
+	border-width: 5px;
 }
 
 footer {
+	background: #f0f;
+	border-style: outset;
+	border-color: #000;
+	border-width: 5px;
+}
+
+h1	{
 	
 }
 
 
 /*	CLASSES	*/
-.templateclass	{
+.clear_float	{
+	float: clear;
+}
+.article_title	{
+	background-color: black;
+	color: white;
+	display: inline-block;
+	position: relative;
+	height: 40px;
+	span {
+		color: orange;
+	}
+	&:after {
+		content: "";
+		position: absolute;
+		border: 20px solid black;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+	}
+}
+.article_title:after {
+		content: "";
+		position: absolute;
+		border: 20px solid black;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+	}
+.article_content	{
 	
 }
 
