@@ -51,7 +51,7 @@ section {
 	display: inline-block;
 	float: left;
 	padding-bottom: 1000px;
-	margin-bottom: -960px;
+	margin-bottom: -1000px;
 	margin-top: 0px;
 	-moz-border-radius-topleft: 15px;
 	border-top-left-radius: 15px;
@@ -76,7 +76,7 @@ aside {
 	display: inline-block;
 	float: left;
 	padding-bottom: 1000px;
-	margin-bottom: -960px;
+	margin-bottom: -1000px;
 	margin-top: 0px;
 	-moz-border-radius-topright: 15px;
 	border-top-right-radius: 15px;
@@ -84,8 +84,11 @@ aside {
 footer {
 	background: #ccc;
 	width: 100%;
+	height: 150px;
 	display: inline-block;
 	margin-top: 0px;
+	padding-top: 40px;
+	padding-bottom: 20px;
 	-moz-border-radius-bottomleft: 15px;
 	-moz-border-radius-bottomright: 15px;
 	border-bottom-left-radius: 15px;
@@ -100,13 +103,13 @@ h2	{
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-bottom: 0;
-	text-shadow: 2px 3px 3px #aaa;
+	text-shadow: 2px 3px 3px #888;
 	letter-spacing: -2px;
 	-webkit-text-stroke: 1px #fff;
 	text-decoration: none;  
 	color: #ffffff;
 	-webkit-mask-image: -webkit-gradient(linear, left top, left bottombottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,0)), to(rgba(0,0,0,1)));
-	text-shadow: 0 2px 0 #aaa;
+	text-shadow: 0 2px 0 #888;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
 	transition: all .3s;
@@ -238,6 +241,12 @@ img	{
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 }
+.footer_spacer	{
+	width: 5%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
 
 
 /*	ID's	*/
@@ -306,4 +315,67 @@ img	{
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+}
+#footer_wrap	{
+	width: 90%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer_left	{
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	background: #eee;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+#footer_center	{
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: #eee;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+#footer_right	{
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	margin-left: auto;
+	margin-right: 0;
+	text-align: left;
+	background: #eee;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+#footer_content_left	{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin-left: -10px;
+}
+#footer_content_center	{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	padding-top: 10px;
+}
+#footer_content_right	{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 10px;
 }
